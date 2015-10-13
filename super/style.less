@@ -1,0 +1,90 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  border: 5px solid transparent;
+}
+::-webkit-scrollbar-thumb {
+  min-height: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;height: 100%;
+}
+
+body.super{
+    font-family: "微软雅黑";
+    textarea{
+        width:~"calc(100% - 40px)";
+        height: ~"calc(100% - 165px - 22px - 25px)";
+        border: none;
+        padding: 20px;
+        font-size: 18px;
+        font-family: "微软雅黑";
+        outline: none;
+    }
+
+}
+div.toolbar{
+    border-bottom: 2px solid #aaa;
+    padding: 10px;
+    nav{
+        h2{
+            display: inline-block;
+            cursor: pointer;
+            font-weight: normal;
+            padding: 10px 5px;
+            color: #aaa;
+        }
+        h2.active{
+            color: #111;
+        }
+    }
+    label{
+        font-size: 14px;
+        padding: 10px;
+        min-width: 120px;
+        margin: 5px;
+        margin-left: 0;
+    }
+    input{
+        width: ~"calc(100% - 36px)";
+        font-size: 14px;
+        padding: 8px;
+        outline: none;
+        margin: 5px;
+    }
+    input.filemode{
+        
+    }
+    .btn{
+        margin: 5px;
+        text-align: center;
+        min-width: 120px;padding: 10px;
+        background: #aaa;
+        color: #FFF;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .btn:last-child{
+        margin-right: 0;
+    }
+}
+
+.hide{
+    display: none !important;
+}

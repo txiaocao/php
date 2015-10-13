@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="style.css" rel="stylesheet" />
+	<!--<script src="http://api.map.baidu.com/api?v=2.0&ak=2c45a344f56e3b0df6dea7a1992bc083"></script>
+	<script src="http://developer.baidu.com/map/jsdemo/demo/convertor.js"></script>-->
+	<style>
+		body, html {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			font-family: "微软雅黑";
+			font-size: 14px;
+		}
+
+		#allmap {
+			width: 100%;
+			height: 500px;
+		}
+	</style>
+</head>
+<body>
+	<a onclick="var d = new Date();window.location.href='?v='+d.getTime()">刷新</a>
+	<div id="allmap"></div>
+	<script src="load.js.php"></script>
+</body>
+</html>

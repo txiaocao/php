@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+
+		var dataBase = openDatabase("bus", "1.0", "公交查询系统", 1024 * 1024, function () { });
+		if (!dataBase) {
+			alert("数据库创建失败！");
+		} else {
+			alert("数据库创建成功！");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>qrcode</Name>
+    <ProjectGuid>{41e001d2-72c1-4100-aad2-1e0a5d8a97f3}</ProjectGuid>
+    <RootNamespace>qrcode</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="cache\mask_0\mask_21_0.dat" />
+    <Compile Include="cache\mask_0\mask_29_0.dat" />
+    <Compile Include="cache\mask_0\mask_33_0.dat" />
+    <Compile Include="cache\mask_1\mask_21_1.dat" />
+    <Compile Include="cache\mask_1\mask_29_1.dat" />
+    <Compile Include="cache\mask_1\mask_33_1.dat" />
+    <Compile Include="cache\mask_2\mask_21_2.dat" />
+    <Compile Include="cache\mask_2\mask_29_2.dat" />
+    <Compile Include="cache\mask_2\mask_33_2.dat" />
+    <Compile Include="cache\mask_3\mask_21_3.dat" />
+    <Compile Include="cache\mask_3\mask_29_3.dat" />
+    <Compile Include="cache\mask_3\mask_33_3.dat" />
+    <Compile Include="cache\mask_4\mask_21_4.dat" />
+    <Compile Include="cache\mask_4\mask_29_4.dat" />
+    <Compile Include="cache\mask_4\mask_33_4.dat" />
+    <Compile Include="cache\mask_5\mask_21_5.dat" />
+    <Compile Include="cache\mask_5\mask_29_5.dat" />
+    <Compile Include="cache\mask_5\mask_33_5.dat" />
+    <Compile Include="cache\mask_6\mask_21_6.dat" />
+    <Compile Include="cache\mask_6\mask_29_6.dat" />
+    <Compile Include="cache\mask_6\mask_33_6.dat" />
+    <Compile Include="cache\mask_7\mask_21_7.dat" />
+    <Compile Include="cache\mask_7\mask_29_7.dat" />
+    <Compile Include="cache\mask_7\mask_33_7.dat" />
+    <Compile Include="cache\frame_1.dat" />
+    <Compile Include="cache\frame_3.dat" />
+    <Compile Include="cache\frame_4.dat" />
+    <Compile Include="errors.txt" />
+    <Compile Include="index.php" />
+    <Compile Include="phpqrcode.php" />
+    <Compile Include="qrbitstream.php" />
+    <Compile Include="qrconfig.php" />
+    <Compile Include="qrconst.php" />
+    <Compile Include="qrencode.php" />
+    <Compile Include="qrimage.php" />
+    <Compile Include="qrinput.php" />
+    <Compile Include="qrlib.com.php" />
+    <Compile Include="qrlib.min.php" />
+    <Compile Include="qrlib.php" />
+    <Compile Include="qrmask.php" />
+    <Compile Include="qrrscode.php" />
+    <Compile Include="qrspec.php" />
+    <Compile Include="qrsplit.php" />
+    <Compile Include="qrtools.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cache\mask_0" />
+    <Folder Include="cache\mask_1" />
+    <Folder Include="cache\mask_2" />
+    <Folder Include="cache\mask_3" />
+    <Folder Include="cache\mask_4" />
+    <Folder Include="cache\mask_5" />
+    <Folder Include="cache\mask_6" />
+    <Folder Include="cache\mask_7" />
+    <Folder Include="cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mark.png" />
+  </ItemGroup>
+</Project>

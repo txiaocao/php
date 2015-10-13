@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content='iqx5qx5psladqc6jyv6z6ngzbcje450f' name='hb-key'>
+    <meta content='487' name='hb-id'>
+    <title>火爆有奖转转盘</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="js/hb-openapi.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/awardRotate.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body style="background-color: #f85a59
+;overflow-x:hidden;">
+<div id="msg" style="display:none;"><img src="images/loading.gif"/><br/>正在加载中...</div>
+<div id="all">    
+    <img src="images/water.png" id="water-img" style="display:none;"/>
+    <img src="images/stick.png" id="stick-img" style="display:none;"/>
+    <img src="images/bag.png" id="bag-img" style="display:none;"/>
+    <img src="images/money.png" id="money-img" style="display:none;"/>
+    <img src="images/sound.png" id="sound-img" style="display:none;"/>
+
+    <div style="margin: 15px 20px;" id="userText">
+        <b><font face="微软雅黑" size="3" color="#FFFFFF">亲爱的<span id="user"></span>，</font></b>
+        <b><font face="微软雅黑" size="3" color="#FFFFFF">还有<font face="微软雅黑" size="6" color="#FFFFFF"><span
+                id="chance"></span></font>次抽奖机会！</font></b>
+    </div>
+    <div class="banner">
+        <div class="turnplate" style="background-image:url(images/turnplate-bg.png);background-size:100% 100%;">
+            <canvas class="item" id="wheelcanvas" width="422px" height="422px"></canvas>
+            <img class="pointer" src="images/turnplate-pointer.png"/>
+        </div>
+    </div>
+    <div style="text-align: center;" id="miss">
+        <img src="images/playbutton.png" id="playbutton" width="250px" height="40px" style="margin: 0 auto;"/>
+    </div>
+    <div style="margin: 10px 20px;">
+        <p style="margin-bottom: 5px;">
+            <img src="images/rules.png" width="75px" height="15px"/>
+        </p>
+
+        <p>
+            <img src="images/introduce.png" width="250px" height="50px"/>
+        </p>
+
+    </div>
+    <!--遮罩层-->
+    <div id="box-b" onclick="hideBack();">
+    </div>
+    <!--奖品提示-->
+    <div class="box" id="box">
+        <div class="bg">
+            <img src="images/giftbackground.png" alt=""/>
+
+            <div class="con-2">
+                <b><font face="微软雅黑" size="3" color="#FFFFFF">兑奖码：</font></b>
+                <b><font face="微软雅黑" size="3" color="#FFFFFF"><span id="code"></span></font></b>
+            </div>
+        </div>
+        <div class="con">
+            <div class="con-1">
+                <img class="img-1" src="images/congratulation-text.png"/>
+
+                <div class="img-2-box">
+                    <img src="" alt="" id="img-2"/>
+                </div>
+                <img class="img-3" src="" alt=""/>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div style="display: none;">
+<script src="http://s95.cnzz.com/z_stat.php?id=1255860082&web_id=1255860082" language="JavaScript"></script>
+</div>
+</body>
+
+</html>

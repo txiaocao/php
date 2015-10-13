@@ -1,0 +1,26 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>wx</Name>
+    <ProjectGuid>{6b9e1d0c-3d29-404a-93d9-54944c8ab5cb}</ProjectGuid>
+    <RootNamespace>wx</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="cache\jsapi_ticket.json" />
+    <Compile Include="config.json" />
+    <Compile Include="hbwx.php" />
+    <Compile Include="index.php" />
+    <Compile Include="make.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cache" />
+  </ItemGroup>
+</Project>

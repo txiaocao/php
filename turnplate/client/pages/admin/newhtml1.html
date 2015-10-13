@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body class="super">
+        <div class="toolbar none">
+            <nav>
+                <h2 id="file" class="active hide"><span class="lang">兑奖查询</span></h2>
+                <h2 id="shell" class="hide"><span class="lang">中奖记录查询</span></h2>
+                <h2 id="sql"><span class="lang">库存查询</span></h2>
+            </nav>
+        </div>
+        <div>
+            <input id="code" class="win-textbox" type="number" />
+            <button id="queryCode" class="win-button"><span class="lang">查询</span></button>
+            <button id="updateCode" class="win-button"><span class="lang">兑奖</span></button>
+        </div>
+        <div>
+            <p class="info"></p>
+            <ul>
+                <li><span class="lang">账号</span>：
+                    <span id="uid"></span>
+                </li>
+                <li><span class="lang">名称</span>：
+                    <span id="uname"></span>
+                </li>
+                <li><span class="lang">抽奖时间</span>：
+                    <span id="createTime"></span>
+                </li>
+                <li><span class="lang">抽奖结果</span>：
+                    <span id="gift"></span>
+                </li>
+                <li><span class="lang">兑奖状态</span>：
+                    <span id="HaveUsed"></span>
+                </li>
+                <li><span class="lang">兑奖时间</span>：
+                    <span id="updateTime"></span>
+                </li>
+            </ul>
+        </div>
+    </body>
+
+</html>

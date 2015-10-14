@@ -1,2 +1,2 @@
-<?php
+﻿<?php
 require_once "bing.php";

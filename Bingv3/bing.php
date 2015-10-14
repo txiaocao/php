@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // define("$this->DS", DIRECTORY_SEPARATOR);
 // define("DATA_PATH", dirname(__FILE__).$this->DS.str_replace("/", $this->DS,"../../data/BingV3".$this->DS));
 
@@ -12,7 +12,7 @@ class bing{
         
         public function __construct($url){
                 $this->url = $url;
-                $this->DATA_PATH = dirname(__FILE__).$this->DS.str_replace("/", $this->DS,"../../data/BingV3".$this->DS);
+                $this->DATA_PATH = dirname(__FILE__).$this->DS.str_replace("/", $this->DS,"data".$this->DS);
         }
         
         // 启动进程
